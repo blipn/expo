@@ -41,11 +41,11 @@ uploadArchives {
 }
 
 android {
-  compileSdkVersion 26
+  compileSdkVersion 28
 
   defaultConfig {
     minSdkVersion 21
-    targetSdkVersion 26
+    targetSdkVersion 28
     versionCode 3
     versionName "4.0.0"
   }

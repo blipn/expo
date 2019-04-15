@@ -19,7 +19,7 @@ def isReleaseBuild() {
 }
 
 def getRepositoryUrl() {
-    return project.findProperty("repositoryUrl") ?: "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+    return project.findProperty("repositoryUrl") ?: "file:${System.env.HOME}/.m2/repository/"
 }
 
 def getRepositoryUsername() {
